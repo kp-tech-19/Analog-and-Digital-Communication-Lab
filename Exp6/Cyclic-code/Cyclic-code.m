@@ -1,7 +1,7 @@
 clc; clear; close all;
 disp("CYCLIC CODE (7,4) ");
 % 1 Generator polynomial g(x) = 1 + x + x^3  → [1 0 1 1]
-g = [1 0 1 1];n = 7; k = 4;
+g = [1 1 0 1];n = 7; k = 4;
 % ----2 Input Message ----
 msg = input("Enter 4 message bits (e.g. [1 0 1 1]): ");
 if length(msg) ~= k
